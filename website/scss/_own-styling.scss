@@ -1,0 +1,45 @@
+.divider-lg{
+    border-bottom: 1.1rem solid $primary;
+}
+.divider-md{
+    border-bottom: 1rem solid $primary;
+}
+.divider-sm{
+    border-bottom: 0.9rem solid $primary;
+}
+.divider-xs{
+    border-bottom: 0.2rem solid $primary;
+}
+.bg-header{
+    background: rgb(20,135,253);
+    background: linear-gradient(90deg, rgba(20,135,253,1) 0%, rgba(66,160,255,1) 100%);
+    
+}
+.bg-form{
+    background-color: papayawhip;
+    
+}
+.white-text{
+    color: #FFF;
+}
+html {
+    font-size: 0.7rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.0rem;
+    }
+  }

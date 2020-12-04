@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Icons from Fontawsome-->
+    <script src="https://kit.fontawesome.com/004ed3d97f.js" crossorigin="anonymous"></script>
+
+   
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Uppgift 3: Registreringsformulär</title>
+
+</head>
+<body>
+
+  <div class="container bg-form p-2">
+    <div>
+      <form class="needs-validation" novalidate>
+        <h1 class="bg-header white-text">Registreringsformulär</h1>
+        <h2 class="divider-xs mt-3">Personliga uppgifter</h2>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label  for="first_name"><strong>Förnamn</strong></label>
+            <input class="form-control" type="text" id="first_name" required>
+            <div class="valid-feedback">Ok</div>
+          </div>
+          <div class="col-md-6">
+            <label for="last_name"><strong>Efternamn</strong></label>
+            <input class="form-control" type="text" id="last_name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label  for="E-mail"><strong>E-mail</strong></label>
+            <input class="form-control" type="email" id="E-mail" required>
+            <div class="valid-feedback">Ok</div>
+          </div>
+          <div class="col-md-3">
+            <label for="password-1"><strong>Ange lösenord</strong></label>
+            <input class="form-control" type="password" id="password-1" minlength="8" maxlength="32" required>
+          </div>
+          <div class="col-md-3">
+            <label for="password-2"><strong>Bekräfta lösenord</strong></label>
+            <input class="form-control" type="password" id="password-2" minlength="8" maxlength="32" required>
+          </div>
+        </div>
+        <h2 class="divider-xs mt-3">Faktureringsadress</h2>
+        <div class="form-row">
+          <div class="col-md-6">
+            <label  for="Postal-address"><strong>Postadress</strong></label>
+            <input class="form-control" type="text" id="Postal-address" required>
+            <div class="valid-feedback">Ok</div>
+          </div>
+          <div class="col-md-2">
+            <label for="zip"><strong>Postnummer</strong></label>
+            <input class="form-control" type="text" id="zip" minlength="5" maxlength="5"  required>
+          </div>
+          <div class="col-md-4">
+            <label for="city"><strong>Ort</strong></label>
+            <input class="form-control" type="text" id="city" required>
+          </div>
+        </div> 
+        <h2 class="divider-xs mt-3">Leveransadress</h2>
+        
+
+        <div class="form-row">
+          
+          <div class="col-md-6">
+            <label class="" for="shipping-address"><strong>Postadress</strong></label>
+            <input class="form-control" type="text" id="shipping-address">
+            <div class="valid-feedback">Ok</div>
+          </div>
+          <div class="col-md-2">
+            <label for="zip"><strong>Postnummer</strong></label>
+            <input class="form-control" type="text" id="zip" minlength="5" maxlength="5">
+          </div>
+          <div class="col-md-4">
+            <label for="city"><strong>Ort</strong></label>
+            <input class="form-control" type="text" id="city">
+          </div>
+        </div> 
+        <div class="form-group mt-4">
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="termsandconditionCheck" required>
+              <label class="form-check-label" for="termsandconditionCheck">
+                  Jag har läst och accepterar <a href="#">GDPR och användarvillkoren</a>.
+              </label>
+              <div class="invalid-feedback">
+                  You must agree before submitting.
+              </div>
+          </div>
+          
+          <div class="form-check  mt-2">
+              <input class="form-check-input" type="checkbox" value="" id="adCheck" required>
+              <label class="form-check-label" for="adCheck">
+                  Jag vill ta del av nyhetsbrev och reklamerbjudanden.
+              </label>
+              <div class="invalid-feedback">
+                  You must agree before submitting.
+              </div>
+          </div>
+      </div>
+      <button class="btn btn-primary mt-4 col-12 py-3" type="submit">Slutför registrering</button>
+          
+         
+
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- <div style="height: 2000px"></div> -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+</html>
